@@ -1,10 +1,5 @@
 /* 1. Hacer que el botón de colapso siempre esté visible */
 
-html,
-body {
-    width: 100%;
-    height: 100%;
-}
 
 .navbar-toggler {
     display: block !important;
@@ -61,31 +56,9 @@ body {
         /* Asegurar que ocupe toda la altura del carrusel */
     }
 
-    /* Estilos para los captions del carrusel */
-    .carousel-caption {
-        position: absolute;
-        bottom: 20px;
-        /* Fijar en la parte inferior del contenedor */
-        left: 50%;
-        /* Centrar horizontalmente */
-        transform: translateX(-50%);
-        /* Ajustar el centrado */
-        text-align: center;
-        background-color: rgba(0, 0, 0, 0.5);
-        /* Fondo semi-transparente */
-        padding: 10px 20px;
-        /* Espaciado interno */
-        border-radius: 5px;
-        /* Bordes redondeados */
-        z-index: 10;
-        /* Asegurar que esté por encima de las imágenes */
-        width: 100%;
-        /* Ocupar todo el ancho del contenedor */
-        max-width: 80%;
-        /* Limitar el ancho máximo */
-    }
 
     .carousel-caption h5 {
+       
         font-size: 24px;
         /* Tamaño del título */
         font-weight: bold;
@@ -229,6 +202,7 @@ body {
     /* Cubrir el contenedor sin perder la proporción */
 }
 
+.cou
 /* Opcional: Ajustar el contenedor interno del carrusel */
 .carousel-inner {
     height: 100%;
@@ -288,4 +262,74 @@ body {
 .carousel-item img {
     z-index: 1;
     /* Las imágenes están detrás de los captions */
+}
+
+.product-card {
+    background: #ffffff;
+    border: 1px solid #e0e0e0;
+    border-radius: 12px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05), 0 1px 3px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+    max-width: 300px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    cursor: pointer;
+    position: relative;
+}
+
+.product-image-container {
+    width: 100%;
+    aspect-ratio: 4/3;
+    overflow: hidden;
+    position: relative;
+    background: #f8f9fa;
+}
+
+.product-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+}
+
+.product-card:hover .product-image {
+    transform: scale(1.05);
+}
+
+.product-content {
+    padding: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    flex-grow: 1;
+}
+
+.product-title {
+    font-size: 1.2em;
+    font-weight: 600;
+    color: #2d3748;
+    margin: 0;
+}
+
+.product-description {
+    font-size: 0.9em;
+    color: #718096;
+    line-height: 1.4;
+    flex-grow: 1;
+}
+
+.product-price {
+    font-size: 1.4em;
+    font-weight: 700;
+    color: #48bb78;
+    text-align: right;
+    margin-top: auto;
+}
+
+/* Efecto hover general de la card */
+.product-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1), 0 4px 6px rgba(0, 0, 0, 0.1);
 }

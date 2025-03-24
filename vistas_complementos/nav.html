@@ -19,9 +19,6 @@
                         <a class="nav-link text-white" href="#">Nosotros</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-white" href="#">Nosotros</a>
-                    </li>
-                    <li class="nav-item">
                         <a class="nav-link text-white" href="#">Blog</a>
                     </li>
                     <li class="nav-item">
@@ -57,9 +54,11 @@
             </div>
 
             <!-- Logo o marca -->
-            <a class="navbar-brand text-white" href="./index">BioAzi Functional Nutrition</a>
+            <a class="navbar-brand text-white" href="./index">
+                <img src="./img/bioazi_logo.png" style="width: 48px;" alt="x"> 
+                <span class="d-none d-sm-inline">BioAzi Functional Nutrition</span></a>
 
-            <div class="cart-container">
+            <div class="cart-container d-none d-sm-block">
                 <div class="cart-icon">
                     <a href="./pedidos/carrito"><i class="bi bi-cart2 text-white"></i>
                         <span class="cart-count">3</span> <!-- Número de productos --></a>
@@ -68,3 +67,10 @@
         </div>
     </nav>
 </header>
+
+<div class="cart-container d-block d-md-none position-fixed bottom-50 end-0 rounded-circle border border-2 overflow-hidden" style="z-index: 99;">
+    <div class="cart-icon">
+        <a href="./pedidos/carrito"><i class="bi bi-cart2 text-white"></i>
+            <span class="cart-count">3</span> <!-- Número de productos --></a>
+    </div>
+</div>

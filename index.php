@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
     <meta charset="UTF-8">
@@ -13,10 +13,9 @@
 
 <body>
     <?php include("./vistas_complementos/nav.html") ?>
-
     <!--CARRUSEL DE IMAGENES !-->
 
-    <div id="carouselExampleCaptions" class="carousel slide mx-auto" style="width: 80%;"> <!-- Ancho del carrusel al 80% -->
+    <div id="carouselExampleCaptions" class="carousel slide mx-auto my-3" style="width: 80%;"> <!-- Ancho del carrusel al 80% -->
         <div class="carousel-indicators">
             <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
             <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
@@ -31,24 +30,15 @@
             <div class="carousel-inner">
                 <div class="carousel-item active">
                     <img src="./img/img_index/banner1.jpg" class="d-block w-100 h-100" alt="..."> <!-- Ajustar imagen al 100% del contenedor -->
-                    <div class="carousel-caption d-none d-md-block">
-                        <h5>Titulo del producto1</h5>
-                        <p>descripcion, no mayor a 50 caracteres</p>
-                    </div>
+
                 </div>
                 <div class="carousel-item">
                     <img src="./img/img_index/banner1.jpg" class="d-block w-100 h-100" alt="..."> <!-- Ajustar imagen al 100% del contenedor -->
-                    <div class="carousel-caption d-none d-md-block">
-                        <h5>Titulo del producto2</h5>
-                        <p>descripcion, no mayor a 50 caracteres</p>
-                    </div>
+
                 </div>
                 <div class="carousel-item">
                     <img src="./img/img_index/banner1.jpg" class="d-block w-100 h-100" alt="..."> <!-- Ajustar imagen al 100% del contenedor -->
-                    <div class="carousel-caption d-none d-md-block">
-                        <h5>Titulo del producto3</h5>
-                        <p>descripcion, no mayor a 50 caracteres</p>
-                    </div>
+
                 </div>
             </div>
             <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
@@ -60,10 +50,51 @@
                 <span class="visually-hidden">Next</span>
             </button>
         </div>
+    </div>
 
+    <!--caja de productos  -->
+    <div class="row p-0 m-0 my-5 justify-content-center align-items-center">
+        <div class="product-card m-1">
+            <div class="product-image-container">
+                <img src="./img/productos/producto-1.jpg" alt="Descripción del producto" class="product-image">
+            </div>
+            <div class="product-content">
+                <h3 class="product-title">Nombre del Producto</h3>
+                <p class="product-description">Descripción breve y atractiva del producto en máximo 2 líneas.</p>
+                <div class="product-price">$99.99</div>
+            </div>
+        </div>
+        <div class="product-card m-1">
+            <div class="product-image-container">
+                <img src="./img/productos/producto-1.jpg" alt="Descripción del producto" class="product-image">
+            </div>
+            <div class="product-content">
+                <h3 class="product-title">Nombre del Producto</h3>
+                <p class="product-description">Descripción breve y atractiva del producto en máximo 2 líneas.</p>
+                <div class="product-price">$99.99</div>
+            </div>
+        </div>
+        <div class="product-card m-1">
+            <div class="product-image-container">
+                <img src="./img/productos/producto-1.jpg" alt="Descripción del producto" class="product-image">
+            </div>
+            <div class="product-content">
+                <h3 class="product-title">Nombre del Producto</h3>
+                <p class="product-description">Descripción breve y atractiva del producto en máximo 2 líneas.</p>
+                <div class="product-price">$99.99</div>
+            </div>
+        </div>
+    </div>
 
-
-        <?php include("./vistas_complementos/footer.html") ?>
+    <div class="col-xl-4 col-lg-4 col-md-8 col-sm-12 mx-auto mb-3">
+        <ul class="list-group">
+            <li style="background-color: transparent;" class="list-group-item text-center"><a href="#">Descripción</a></li>
+            <li style="background-color: transparent;" class="list-group-item text-center"><a href="#">Caracteristicas y beneficios</a></li>
+            <li style="background-color: transparent;" class="list-group-item text-center"><a href="#">Información Nutrimental</a></li>
+            <li style="background-color: transparent;" class="list-group-item text-center"><a href="#">Detalles</a></li>
+        </ul>
+    </div>
+    <?php include("./vistas_complementos/footer.html") ?>
 </body>
 
 </html>
