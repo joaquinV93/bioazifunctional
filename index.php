@@ -15,41 +15,46 @@
     <?php include("./vistas_complementos/nav.html") ?>
     <!--CARRUSEL DE IMAGENES !-->
 
-    <div id="carouselExampleCaptions" class="carousel slide mx-auto my-3" style="width: 80%;"> <!-- Ancho del carrusel al 80% -->
+    <style>
+        /* Cambiar color de las flechas de navegación a negro */
+        .carousel-control-prev-icon,
+        .carousel-control-next-icon {
+            filter: invert(1);
+            /* Invierte el color (de blanco a negro) */
+        }
+
+        /* Cambiar color de los indicadores a negro */
+        .carousel-indicators button {
+            background-color: black !important;
+            border: 1px solid black !important;
+        }
+    </style>
+
+    <div id="carouselExampleCaptions" class="carousel slide mx-auto mb-3" style="width: 100%;">
         <div class="carousel-indicators">
             <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
             <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
             <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
         </div>
-        <div id="carouselExampleCaptions" class="carousel slide mx-auto" style="width: 80%; height: 400px;"> <!-- Ancho y altura fijos -->
-            <div class="carousel-indicators">
-                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="./img/banner1.jpg" class="d-block w-100 h-100" alt="...">
             </div>
-            <div class="carousel-inner">
-                <div class="carousel-item active">
-                    <img src="./img/img_index/banner1.jpg" class="d-block w-100 h-100" alt="..."> <!-- Ajustar imagen al 100% del contenedor -->
-
-                </div>
-                <div class="carousel-item">
-                    <img src="./img/img_index/banner1.jpg" class="d-block w-100 h-100" alt="..."> <!-- Ajustar imagen al 100% del contenedor -->
-
-                </div>
-                <div class="carousel-item">
-                    <img src="./img/img_index/banner1.jpg" class="d-block w-100 h-100" alt="..."> <!-- Ajustar imagen al 100% del contenedor -->
-
-                </div>
+            <div class="carousel-item">
+                <img src="./img/banner2.jpg" class="d-block w-100 h-100" alt="...">
             </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Next</span>
-            </button>
+            <div class="carousel-item">
+                <img src="./img/banner3.jpg" class="d-block w-100 h-100" alt="...">
+            </div>
         </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
     </div>
 
     <!--caja de productos  -->

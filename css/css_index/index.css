@@ -38,13 +38,13 @@
         left: 0;
         width: 100%;
         /* Ocupa el ancho completo */
-        background-color: black;
+        background-color: rgb(255, 255, 255);
         /* Fondo negro */
         z-index: 1000;
         /* Asegura que esté por encima de otros elementos */
         padding: 10px;
         /* Espaciado interno */
-        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        box-shadow: 0 4px 6px rgba(194, 192, 192, 0.1);
         /* Sombra para resaltar */
     }
 
@@ -63,14 +63,14 @@
         /* Tamaño del título */
         font-weight: bold;
         /* Texto en negrita */
-        color: white;
+        color: rgb(0, 0, 0);
         /* Color del texto */
     }
 
     .carousel-caption p {
         font-size: 16px;
         /* Tamaño de la descripción */
-        color: white;
+        color: rgb(0, 0, 0);
         /* Color del texto */
     }
 
@@ -87,12 +87,12 @@
 
 /* 6. Estilos adicionales para el menú desplegable */
 .dropdown-menu {
-    background-color: black !important;
-    border: 1px solid white;
+    background-color: rgb(255, 255, 255) !important;
+    border: 1px solid rgb(0, 0, 0);
 }
 
 .dropdown-item:hover {
-    background-color: #333 !important;
+    background-color: #919191 !important;
     /* Cambiar el color de fondo al pasar el mouse */
 }
 
@@ -100,7 +100,7 @@
 .navbar-nav .nav-link,
 .navbar-brand,
 .dropdown-item {
-    color: white !important;
+    color: rgb(0, 0, 0) !important;
 }
 
 /* Contenedor flexible para el carrito */
@@ -109,7 +109,7 @@
     justify-content: flex-end;
     /* Alinea el carrito a la derecha */
     padding: 10px;
-    background-color: black;
+    background-color: rgb(255, 255, 255);
     /* Fondo negro */
 }
 
@@ -154,7 +154,7 @@
 .navbar-nav .nav-link:hover {
     background-color: #333;
     /* Fondo gris oscuro al pasar el mouse */
-    color: white !important;
+    color: rgb(200, 200, 200) !important;
     /* Texto blanco */
     transition: background-color 0.3s ease;
     /* Transición suave */
@@ -164,7 +164,7 @@
 .dropdown-item:hover {
     background-color: #333 !important;
     /* Fondo gris oscuro al pasar el mouse */
-    color: white !important;
+    color: rgb(200, 200, 200) !important;
     /* Texto blanco */
     transition: background-color 0.3s ease;
     /* Transición suave */
@@ -172,15 +172,15 @@
 
 /* Estilos adicionales para el menú desplegable */
 .dropdown-menu {
-    background-color: black !important;
-    border: 1px solid white;
+    background-color: rgb(255, 255, 255) !important;
+    border: 1px solid rgb(0, 0, 0);
 }
 
 /* Asegurar que el texto sea blanco en todos los elementos */
 .navbar-nav .nav-link,
 .navbar-brand,
 .dropdown-item {
-    color: white !important;
+    color: rgb(0, 0, 0) !important;
 }
 
 
@@ -191,7 +191,7 @@
     /* Altura fija */
     margin: 0 auto;
     /* Centrar el carrusel */
-    color: black;
+    color: rgb(255, 255, 255);
 }
 
 /* Ajustar las imágenes para que cubran el 100% del contenedor sin distorsionarse */
@@ -228,7 +228,7 @@
     transform: translateX(-50%);
     /* Ajustar el centrado */
     text-align: center;
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(255, 255, 255, 0.5);
     /* Fondo semi-transparente */
     padding: 10px 20px;
     /* Espaciado interno */
@@ -247,14 +247,14 @@
     /* Tamaño del título */
     font-weight: bold;
     /* Texto en negrita */
-    color: white;
+    color: rgb(0, 0, 0);
     /* Color del texto */
 }
 
 .carousel-caption p {
     font-size: 16px;
     /* Tamaño de la descripción */
-    color: white;
+    color: rgb(0, 0, 0);
     /* Color del texto */
 }
 
