@@ -1,3 +1,21 @@
+@font-face {
+    font-family: 'TuFuente';
+    src: url('../../fonts/Quicksand/Quicksand-Regular.ttf') format('woff2'),
+         url('../../fonts/Quicksand/Quicksand-Bold.ttf') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap; /* Opcional: mejora la renderización durante la carga */
+}
+/* Aplicar la fuente a todo el documento */
+body {
+    font-family: 'TuFuente', sans-serif;
+    /* Asegura que los elementos hereden la fuente */
+}
+
+/* Opcional: forzar la herencia para todos los elementos */
+* {
+    font-family: inherit;
+}
 /* 1. Hacer que el botón de colapso siempre esté visible */
 
 
@@ -96,6 +114,11 @@
     /* Cambiar el color de fondo al pasar el mouse */
 }
 
+a:hover{
+    background-color: #7c7d80;
+    color: rgb(255, 255, 255);
+    text-decoration-line: none;
+}
 /* 7. Asegurar que el texto sea blanco en todos los elementos */
 .navbar-nav .nav-link,
 .navbar-brand,

@@ -1,0 +1,33 @@
+@font-face {
+    font-family: 'TuFuente';
+    src: url('../../fonts/Quicksand/Quicksand-Regular.ttf') format('woff2'),
+         url('../../fonts/Quicksand/Quicksand-Bold.ttf') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap; /* Opcional: mejora la renderización durante la carga */
+}
+html{
+    width: 100%;
+}
+/* Aplicar la fuente a todo el documento */
+body {
+    font-family: 'TuFuente', sans-serif;
+    width: 100%;
+    /* Asegura que los elementos hereden la fuente */
+}
+
+/* Opcional: forzar la herencia para todos los elementos */
+* {
+    font-family: inherit;
+}
+
+.banner-izquierdo{
+    display: block;
+    width: 100%;
+    text-align: start;
+    font-size: 45pt;
+    font-weight: bold;
+    transform: skew(135deg);
+    background-image: linear-gradient(to right, #C4E2DE 0%, #ABDCD7 100%);
+}
+
