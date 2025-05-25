@@ -64,9 +64,13 @@
                 <img src="./img/productos/producto-1.jpg" alt="Descripción del producto" class="product-image">
             </div>
             <div class="product-content">
-                <h3 class="product-title">Nombre del Producto</h3>
+                <h3 class="product-title">Aminos</h3>
                 <p class="product-description">Descripción breve y atractiva del producto en máximo 2 líneas.</p>
                 <div class="product-price">$99.99</div>
+            </div>
+            <div class="row p-0 m-0 justify-content-center mb-2">
+                <button type="button" class="btn btn-info m-1" style="width: fit-content;"><i class="bi bi-info"></i></button>
+                <button type="button" class="btn btn-success m-1" style="width: fit-content;"><i class="bi bi-cart-plus"></i></button>
             </div>
         </div>
         <div class="product-card m-1">
@@ -74,9 +78,14 @@
                 <img src="./img/productos/producto-1.jpg" alt="Descripción del producto" class="product-image">
             </div>
             <div class="product-content">
-                <h3 class="product-title">Nombre del Producto</h3>
+                <h3 class="product-title">Aminos X2</h3>
                 <p class="product-description">Descripción breve y atractiva del producto en máximo 2 líneas.</p>
                 <div class="product-price">$99.99</div>
+
+            </div>
+            <div class="row p-0 m-0 justify-content-center mb-2">
+                <button type="button" class="btn btn-info m-1" style="width: fit-content;"><i class="bi bi-info"></i></button>
+                <button type="button" class="btn btn-success m-1" style="width: fit-content;"><i class="bi bi-cart-plus"></i></button>
             </div>
         </div>
         <div class="product-card m-1">
@@ -84,19 +93,24 @@
                 <img src="./img/productos/producto-1.jpg" alt="Descripción del producto" class="product-image">
             </div>
             <div class="product-content">
-                <h3 class="product-title">Nombre del Producto</h3>
+                <h3 class="product-title">Aminos X3</h3>
                 <p class="product-description">Descripción breve y atractiva del producto en máximo 2 líneas.</p>
                 <div class="product-price">$99.99</div>
+
+            </div>
+            <div class="row p-0 m-0 justify-content-center mb-2">
+                <button type="button" class="btn btn-info m-1" style="width: fit-content;"><i class="bi bi-info"></i></button>
+                <button type="button" class="btn btn-success m-1" style="width: fit-content;"><i class="bi bi-cart-plus"></i></button>
             </div>
         </div>
     </div>
 
-    <div class="col-xl-2 col-lg-3 col-md-4 col-sm-12 mx-start mb-3">
+    <div class="col-xl-3 col-lg-3 col-md-4 col-sm-12 mx-start mx-3 mb-3">
         <ul class="list-group">
-            <li style="background-color: transparent;" class="list-group-item text-center"><a href="#">Descripción</a></li>
-            <li style="background-color: transparent;" class="list-group-item text-center"><a href="#">Caracteristicas y beneficios</a></li>
-            <li style="background-color: transparent;" class="list-group-item text-center"><a href="#">Información Nutrimental</a></li>
-            <li style="background-color: transparent;" class="list-group-item text-center"><a href="#">Detalles</a></li>
+            <li style="background-color: transparent;" class="list-group-item text-center"><a href="descripcion">Descripción</a></li>
+            <li style="background-color: transparent;" class="list-group-item text-center"><a href="caracteristicas">Caracteristicas y beneficios</a></li>
+            <li style="background-color: transparent;" class="list-group-item text-center"><a href="informacion_nutrimental">Información Nutrimental</a></li>
+            <li style="background-color: transparent;" class="list-group-item text-center"><a href="detalles">Detalles</a></li>
         </ul>
     </div>
     <?php include("./vistas_complementos/footer.html") ?>

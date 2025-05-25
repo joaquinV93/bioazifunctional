@@ -15,17 +15,44 @@
 <body>
     <?php include("./vistas_complementos/nav.html"); ?>
 
-    <div class="row m-0 p-0 flex-column">
-        <div class="banner-izquierdo rounded">
-            Misión
-        </div>
-        <div class="col-xl-4 col-lg-5 col-md-6 col-sm-10 col-12 d-block mx-auto">
-            <p style="text-align: justify">
-                Nuestra Misión es ofrecer suplementos saludables innovadores, de alta calidad y accesibles, que respalden el bienestar y el rendimiento óptimo de nuestros clientes. Nos comprometemos a utilizar incredientes naturales, seguros y eficaces, respaldados por la ciencia y nutrición funcional y a garantizar la transparencia en la etiqueta de nuestros productos
-            </p>
+    <div class="col-xl-8 col-lg-8 col-md-8 col-sm-10 col-11 mx-auto mt-5">
+        <div class="col-lg-6 col-xl-6 col-md-8 col-sm-10 border rounded col-11 d-flex m-0 me-auto p-0 flex-column touch">
+            <div class="banner">
+                Misión
+            </div>
+            <div class="d-block mx-auto">
+                <p style="text-align: justify" class="p-3">
+                    Nuestra Misión es ofrecer suplementos saludables innovadores, de alta calidad y accesibles, que respalden el bienestar y el rendimiento óptimo de nuestros clientes. Nos comprometemos a utilizar incredientes naturales, seguros y eficaces, respaldados por la ciencia y nutrición funcional y a garantizar la transparencia en la etiqueta de nuestros productos
+                </p>
+            </div>
         </div>
     </div>
+    <div class="col-xl-8 col-lg-8 col-md-8 col-sm-10 col-11 mx-auto">
+        <div class="col-lg-6 col-xl-6 col-md-8 col-sm-10 border rounded col-11 d-flex m-0 ms-auto p-0 flex-column touch">
+            <div class="banner">
+                Visión
+            </div>
 
+            <div class="d-block mx-auto">
+                <p style="text-align: justify" class="p-3">
+                    Nuestra visión es convertirnos en líderes nacionales y globales en la industria de los suplementos saludables, reconocidos por nuestra pasión por la nutrición funcional, la calidad excepcional, la accesibilidad, la transparencia y la innovación. Nos comprometemos a inspirar a las personas a adoptar un estilo de vida saludable y activo, y a proporcionarles las herramientas y recursos necesarios para alcanzar sus objetivos de salud y bienestar.
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="col-xl-8 col-lg-8 col-md-8 col-sm-10 col-11 mx-auto">
+        <div class="col-lg-6 col-xl-6 col-md-8 col-sm-10 border rounded col-11 d-flex m-0 me-auto p-0 flex-column touch">
+            <div class="banner rounded">
+                Objetivos
+            </div>
+            <ul style="text-align:justify;" class="p-4">
+                <li>Ser la opción de confianza para aquellos que buscan mejorar su salud y calidad de vida, mediante una comunicación honesta, transparente y personalizada.</li>
+                <li>Inspirar a nuestros clientes a adoptar un estilo de vida saludable y acompañarlos en su camino hacia el bienestar óptimo. </li>
+                <li>Priorizar el bienestar nutricional de nuestros clientes, fomentando una cultura de salud y prevención, y hacer una diferencia positiva en la comunidad en general, mediante una contribución significativa y sostenible.</li>
+            </ul>
+        </div>
+
+    </div>
     <?php include("./vistas_complementos/footer.html")    ?>
 
 </body>
